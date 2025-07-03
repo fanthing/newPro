@@ -10,7 +10,7 @@ import { useGlobalPublicStore } from '@/context/global-public-context'
 const AppList = () => {
   const { t } = useTranslation()
   useEducationInit()
-  const { systemFeatures } = useGlobalPublicStore()
+  // const { systemFeatures } = useGlobalPublicStore()
   return (
     <div className='relative flex h-0 shrink-0 grow flex-col overflow-y-auto bg-background-body'>
       <Apps />
